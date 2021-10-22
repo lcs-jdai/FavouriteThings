@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FrankCaiView.swift
 //  FavouriteThings
 //
 //  Created by Jerry Dai on 2021-10-20.
@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GuanyuView: View {
     var body: some View {
-        Image("yuange")
+        Image("guanyu")
             .resizable()
             .scaledToFit()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct GuanyuView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GuanyuView()
     }
 }
