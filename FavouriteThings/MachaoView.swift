@@ -9,7 +9,50 @@ import SwiftUI
 
 struct MachaoView: View {
     var body: some View {
-        Image("machao").resizable().scaledToFit()
+ 
+        VStack {
+            
+            Image("machao")
+                .resizable()
+                .scaledToFit()
+
+            Text("Machao YYDS")
+            
+            .padding()
+            
+            Spacer ()
+
+            
+        }
+        .navigationTitle("Machao")
+        
+        VStack {
+            
+            Image("guanyu")
+                .resizable()
+                .scaledToFit()
+            
+            Text("Guayu YYDS")
+            
+                .padding()
+            
+                Spacer()
+        }
+        .navigationTitle("Guanyu")
+        
+        VStack {
+            
+            Image("yuange")
+                .resizable()
+                .scaledToFit()
+            
+            Text("Yuange YYDS")
+            
+                .padding()
+            
+                Spacer()
+        }
+        .navigationTitle("Yuange")
     }
 }
 
