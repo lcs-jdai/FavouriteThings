@@ -9,22 +9,28 @@
 /* Begin PBXBuildFile section */
 		6D6C6B772720610400CFA93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6C6B762720610400CFA93F /* Assets.xcassets */; };
 		6D6C6B7A2720610400CFA93F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6C6B792720610400CFA93F /* Preview Assets.xcassets */; };
-		6D6C6B852720D64000CFA93F /* MachaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C6B842720D64000CFA93F /* MachaoView.swift */; };
-		6D9EC03A2727028800A3581C /* GuanyuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC0392727028800A3581C /* GuanyuView.swift */; };
-		6D9EC03C272705C400A3581C /* YuangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC03B272705C400A3581C /* YuangeView.swift */; };
+		6D6C6B852720D64000CFA93F /* KaisaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C6B842720D64000CFA93F /* KaisaView.swift */; };
+		6D9EC03A2727028800A3581C /* KDAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC0392727028800A3581C /* KDAView.swift */; };
+		6D9EC03C272705C400A3581C /* AkaliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC03B272705C400A3581C /* AkaliView.swift */; };
 		6D9EC05E27270C4E00A3581C /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC05D27270C4E00A3581C /* FavouriteThingsApp.swift */; };
 		6D9EC06027270DDC00A3581C /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC05F27270DDC00A3581C /* FavouriteThingsListView.swift */; };
+		6D9EC0622727402200A3581C /* AhriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC0612727402200A3581C /* AhriView.swift */; };
+		6D9EC0642727403A00A3581C /* EvelynnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC0632727403A00A3581C /* EvelynnView.swift */; };
+		6D9EC06C27274FA800A3581C /* SeraphineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC06B27274FA800A3581C /* SeraphineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D6C6B6F272060FA00CFA93F /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6C6B762720610400CFA93F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D6C6B792720610400CFA93F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6D6C6B842720D64000CFA93F /* MachaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachaoView.swift; sourceTree = "<group>"; };
-		6D9EC0392727028800A3581C /* GuanyuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuanyuView.swift; sourceTree = "<group>"; };
-		6D9EC03B272705C400A3581C /* YuangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuangeView.swift; sourceTree = "<group>"; };
+		6D6C6B842720D64000CFA93F /* KaisaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaisaView.swift; sourceTree = "<group>"; };
+		6D9EC0392727028800A3581C /* KDAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDAView.swift; sourceTree = "<group>"; };
+		6D9EC03B272705C400A3581C /* AkaliView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkaliView.swift; sourceTree = "<group>"; };
 		6D9EC05D27270C4E00A3581C /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
 		6D9EC05F27270DDC00A3581C /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
+		6D9EC0612727402200A3581C /* AhriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhriView.swift; sourceTree = "<group>"; };
+		6D9EC0632727403A00A3581C /* EvelynnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvelynnView.swift; sourceTree = "<group>"; };
+		6D9EC06B27274FA800A3581C /* SeraphineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeraphineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +82,13 @@
 		6D9EC03E272708BC00A3581C /* Viewssss */ = {
 			isa = PBXGroup;
 			children = (
-				6D6C6B842720D64000CFA93F /* MachaoView.swift */,
-				6D9EC0392727028800A3581C /* GuanyuView.swift */,
-				6D9EC03B272705C400A3581C /* YuangeView.swift */,
 				6D9EC05F27270DDC00A3581C /* FavouriteThingsListView.swift */,
+				6D6C6B842720D64000CFA93F /* KaisaView.swift */,
+				6D9EC0392727028800A3581C /* KDAView.swift */,
+				6D9EC03B272705C400A3581C /* AkaliView.swift */,
+				6D9EC0612727402200A3581C /* AhriView.swift */,
+				6D9EC0632727403A00A3581C /* EvelynnView.swift */,
+				6D9EC06B27274FA800A3581C /* SeraphineView.swift */,
 			);
 			path = Viewssss;
 			sourceTree = "<group>";
@@ -154,11 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D6C6B852720D64000CFA93F /* MachaoView.swift in Sources */,
-				6D9EC03A2727028800A3581C /* GuanyuView.swift in Sources */,
+				6D9EC06C27274FA800A3581C /* SeraphineView.swift in Sources */,
+				6D6C6B852720D64000CFA93F /* KaisaView.swift in Sources */,
+				6D9EC0622727402200A3581C /* AhriView.swift in Sources */,
+				6D9EC03A2727028800A3581C /* KDAView.swift in Sources */,
 				6D9EC06027270DDC00A3581C /* FavouriteThingsListView.swift in Sources */,
 				6D9EC05E27270C4E00A3581C /* FavouriteThingsApp.swift in Sources */,
-				6D9EC03C272705C400A3581C /* YuangeView.swift in Sources */,
+				6D9EC03C272705C400A3581C /* AkaliView.swift in Sources */,
+				6D9EC0642727403A00A3581C /* EvelynnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
