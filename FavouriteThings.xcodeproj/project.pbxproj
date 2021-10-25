@@ -13,6 +13,7 @@
 		6D9EC03A2727028800A3581C /* GuanyuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC0392727028800A3581C /* GuanyuView.swift */; };
 		6D9EC03C272705C400A3581C /* YuangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC03B272705C400A3581C /* YuangeView.swift */; };
 		6D9EC05E27270C4E00A3581C /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC05D27270C4E00A3581C /* FavouriteThingsApp.swift */; };
+		6D9EC06027270DDC00A3581C /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EC05F27270DDC00A3581C /* FavouriteThingsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6D9EC0392727028800A3581C /* GuanyuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuanyuView.swift; sourceTree = "<group>"; };
 		6D9EC03B272705C400A3581C /* YuangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuangeView.swift; sourceTree = "<group>"; };
 		6D9EC05D27270C4E00A3581C /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
+		6D9EC05F27270DDC00A3581C /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				6D6C6B842720D64000CFA93F /* MachaoView.swift */,
 				6D9EC0392727028800A3581C /* GuanyuView.swift */,
 				6D9EC03B272705C400A3581C /* YuangeView.swift */,
+				6D9EC05F27270DDC00A3581C /* FavouriteThingsListView.swift */,
 			);
 			path = Viewssss;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				6D6C6B852720D64000CFA93F /* MachaoView.swift in Sources */,
 				6D9EC03A2727028800A3581C /* GuanyuView.swift in Sources */,
+				6D9EC06027270DDC00A3581C /* FavouriteThingsListView.swift in Sources */,
 				6D9EC05E27270C4E00A3581C /* FavouriteThingsApp.swift in Sources */,
 				6D9EC03C272705C400A3581C /* YuangeView.swift in Sources */,
 			);
