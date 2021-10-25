@@ -10,7 +10,9 @@ import SwiftUI
 struct MachaoView: View {
     var body: some View {
  
-        VStack {
+        ScrollView {
+            
+            VStack {
             
             Image("machao")
                 .resizable()
@@ -22,7 +24,7 @@ struct MachaoView: View {
             
             Spacer ()
 
-            
+            }
         }
         .navigationTitle("Machao")
     }

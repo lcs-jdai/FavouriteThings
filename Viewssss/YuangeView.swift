@@ -10,6 +10,8 @@ import SwiftUI
 struct YuangeView: View {
     var body: some View {
         
+        ScrollView {
+        
         VStack {
             
             Image("yuange")
@@ -21,6 +23,8 @@ struct YuangeView: View {
                 .padding()
             
                 Spacer()
+        
+            }
         }
         .navigationTitle("Yuange")
     }

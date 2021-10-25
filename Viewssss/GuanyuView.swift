@@ -10,7 +10,8 @@ import SwiftUI
 struct GuanyuView: View {
     var body: some View {
         
-        VStack {
+        ScrollView {
+            VStack {
             
             Image("guanyu")
                 .resizable()
@@ -21,6 +22,8 @@ struct GuanyuView: View {
                 .padding()
             
                 Spacer()
+                
+            }
         }
         .navigationTitle("Guanyu")
     }
