@@ -47,7 +47,6 @@
 		6D6C6B66272060FA00CFA93F = {
 			isa = PBXGroup;
 			children = (
-				6D9EC05D27270C4E00A3581C /* FavouriteThingsApp.swift */,
 				6D9EC03E272708BC00A3581C /* Viewssss */,
 				6D6C6B71272060FA00CFA93F /* FavouriteThings */,
 				6D6C6B70272060FA00CFA93F /* Products */,
@@ -65,6 +64,7 @@
 		6D6C6B71272060FA00CFA93F /* FavouriteThings */ = {
 			isa = PBXGroup;
 			children = (
+				6D9EC05D27270C4E00A3581C /* FavouriteThingsApp.swift */,
 				6D6C6B762720610400CFA93F /* Assets.xcassets */,
 				6D6C6B782720610400CFA93F /* Preview Content */,
 			);
